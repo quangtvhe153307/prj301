@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(255,0,0,0.3), rgba(255,0,0,0.8));
+}
+.header{
+    height: 15vh;
+    /*background: #15161D;*/
+    color: #ffffff;
+    font-size: 1em;
+}
+.header-left{
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+.header-right{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.login-container{
+    float: right;
+    width: 25vw;
+    min-width: 300px;
+    height: 50vh;
+    margin-right: 28vh;
+    margin-top: 5vh;
+    background: #ffffff;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+}
+.login-container h2{
+    position: relative;
+    top: -15px;
+    left: 20px;
+    background: transparent;
+}
+.form-group{
+    margin-top: 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.form-group .form-control{
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: #D10024;
+    border: none;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+form a.login{
+    text-decoration: none;
+    float: right;
+    margin: 5%;
+    width: 90%;
+}
+form h3{
+    margin-left: 5%;
+    color: red;
+    font-weight: bold;
+}
+form h6{
+    color:red;
+    margin-left: 5%;
+}
+.signup{
+    text-decoration: none;
+}
+.additional-links{
+    clear: both;
+    margin-top: 10px;
+    /*display: flex;*/
+    display: inline-flex;
+}
+.additional-links>div{
+    display: inline-block;
+    width: 20%;
+}
+form div:last-child{
+    width: 90%;
+    margin: 0 auto;
+}
+#registerContainer{
+    height: 60vh;
+}
